@@ -25,7 +25,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency("prawn", "~> 1.0.0")
   gem.add_dependency("money", "~> 6.5")
   gem.add_dependency("prawn-svg", "~> 0.15.0.0")
-  gem.add_dependency("i18n", "~> 0.7")
+  gem.add_dependency("i18n", [">= 1.6.0", '<= 2'])
 
   gem.add_development_dependency "bundler", "~> 2.0"
 end
